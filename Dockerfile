@@ -14,7 +14,7 @@ ADD index.py index.py
 ADD stage-1.pth stage-1.pth
 
 # Run it once to trigger resnet download
-RUN python cougar.py
+RUN python index.py
 
 EXPOSE 8008
 
