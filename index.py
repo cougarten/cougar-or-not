@@ -2,7 +2,7 @@ from starlette.applications import Starlette
 from starlette.responses import JSONResponse, HTMLResponse, RedirectResponse
 from fastai.vision import (
     ImageDataBunch,
-    ConvLearner,
+    create_cnn,
     open_image,
     get_transforms,
     models,
